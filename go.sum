@@ -1,0 +1,4 @@
+github.com/keegancsmith/rpc v1.1.0 h1:bXVRk3EzbtrEegTGKxNTc+St1lR7t/Z1PAO8misBnCc=
+github.com/keegancsmith/rpc v1.1.0/go.mod h1:Xow74TKX34OPPiPCdz6x1o9c0SCxRqGxDuKGk7ZOo8s=
+github.com/stamblerre/gocode v0.0.0-20190327203809-810592086997 h1:LF81AGV63kJoxjmSgQPT8FARAMHeY46CYQ4TNoVDWHM=
+github.com/stamblerre/gocode v0.0.0-20190327203809-810592086997/go.mod h1:EM2T8YDoTCvGXbEpFHxarbpv7VE26QD1++Cb1Pbh7Gs=
