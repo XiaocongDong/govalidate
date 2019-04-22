@@ -7,15 +7,18 @@ import (
 
 type User struct {
 	FirstName string `validate:"required"`
+	LastName string `validate:"required"`
 }
 
 func main () {
-	user := User{"Taolang"}
+	user := User{FirstName: "Taolang"}
 	validator := validate.New()
 
 	errors := validator.Struct(user)
 
 	if errors != nil {
-		fmt.Println(errors)
+		for _, error := range errors {
+			fmt.Println(error.Tag())
+		}
 	}
 }
